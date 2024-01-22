@@ -1,0 +1,51 @@
+// colores
+$negro: #000;
+$blanco: #fff;
+
+$dark: $negro;
+$white: $blanco;
+
+
+// Tipografia
+$fuenteHeading: 'Manrope', sans-serif;
+$fuentePrincipal: 'Outfit', sans-serif;
+
+// Generales
+img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+//Fonts
+$font-family-base: $fuentePrincipal;
+$font-size-root: 62.5%;
+$font-size-base: 1.8rem;
+
+// headings
+$h1-font-size: 4.8rem;
+$h2-font-size: 3.5rem;
+$h3-font-size: 2.8rem;
+$headings-font-family: $fuenteHeading;
+// links
+$link-decoration: none;
+$link-color: $dark;
+
+//navbar
+$navbar-toggler-border-radius: 0;
+$navbar-light-icon-color: $dark;
+$navbar-light-toggler-border-color: $dark;
+$navbar-toggler-focus-width: 0;
+
+//carousel
+$carousel-control-color: $dark;
+$carousel-control-icon-width: 3rem;
+
+// btn
+$btn-border-radius: 0;
+
+//input
+$input-border-radius: 0;
+$input-border-color: $dark;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

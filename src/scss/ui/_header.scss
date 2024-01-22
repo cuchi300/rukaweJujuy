@@ -1,0 +1,21 @@
+@use '../custom' as *;
+
+.header{
+    
+
+    &__cart{
+        border: none;
+    }
+    &__span{
+        width: 2.2rem;
+        height: 2.2rem;
+        padding: .1rem;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__link{
+        text-transform: uppercase;
+    }
+}

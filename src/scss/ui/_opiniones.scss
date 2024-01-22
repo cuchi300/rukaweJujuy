@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.opiniones{
+    background-color: transparentize(#e1e1e1, .7);
+    &__imagenes{
+        overflow: hidden;
+    }
+    &__img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+}

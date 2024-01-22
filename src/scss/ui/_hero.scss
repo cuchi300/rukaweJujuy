@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+
+.hero{
+
+    img{
+        width: 100%;
+        height: 45rem;
+        @include media-breakpoint-up(md){
+            height: 55rem;    
+        } 
+    }
+    
+}
